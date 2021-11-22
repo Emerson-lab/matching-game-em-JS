@@ -15,7 +15,10 @@ const cards = [
       icon: "logo-javascript",
       altIcon: "logo do javascript",
     },
-    
+    {
+      icon: "logo-css",
+      altIcon: "logo do css",
+    },
     {
       icon: "logo-css",
       altIcon: "logo do css",
