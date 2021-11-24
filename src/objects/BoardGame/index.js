@@ -3,7 +3,9 @@ import CardFrontBack from "../../components/CardFrontBack";
 import cards from "./data.js";
 
 function BoardGame() {
-  
+  const flipAndHideCrads = ($cardsActive) => {
+    $cardsActive.forEach((card) => card.classList.remove("-active"));
+  };
   const changePlayer = () => {
     const $arrowDown = document.querySelector(".arrow-down");
     const currentplayer = $arrowDown.getAttribute("data-currentplayer");
